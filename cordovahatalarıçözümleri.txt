@@ -1,0 +1,2 @@
+C:\Users\OMERFARUK\source\repos\BlankCordovaApp2\BlankCordovaApp2\platforms\android\cordova\lib\builders\GradleBuilder.js
+https://services.gradle.org/distributions/gradle-2.13-all.zip
