@@ -1,7 +1,7 @@
 app.network = {
     options: {},
     init: function() {
-        console.log('init network');
+        //alert('init network');
         this.connection = $('connection-type');
         this.check();
         document.addEventListener("offline", this.offline.bind(this), false);
@@ -25,11 +25,11 @@ app.network = {
     },
     
     online: function() {
-        console.log('Coming online');
+        alert('Coming online');
     },
     
     offline: function() {
-        console.log('Going offline');
+        alert('Going offline');
     }
     
 }

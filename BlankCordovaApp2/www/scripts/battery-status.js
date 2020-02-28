@@ -29,7 +29,7 @@ app.batteryStatus = {
         this.status.style.backgroundColor = c;
         this.status.innerText = s;
 
-        console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
+        //alert("Level: " + status.level + " isPlugged: " + status.isPlugged);
     },
 };
 

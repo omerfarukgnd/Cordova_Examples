@@ -18,26 +18,27 @@ app.camera = {
     },
     
     // camera returned a photo
-    success: function(img) {
-        console.log('success: ', img);
+    success: function (img) {
+  
+        //alert('success: ', img);
         $('photo').style.backgroundImage = 'url('+ img + ')';
     },
 
     // camera returned an error
     error: function(msg) {
-        alert(msg);
-        console.error('error: ', msg);
+        //alert(msg);
+        //console.error('error: ', msg);
     },
     
     // getPicture
     getPicture: function() {
-        console.log('getPicture()');
+        //alert('getPicture()');
         navigator.camera.getPicture(this.success, this.error, this.options);
     },
     
     // get file URI
     filePicker: function() {
-        console.log('filePicker()');
+        //alert('filePicker()');
         var o = this.options;
         o.sourceType = Camera.PictureSourceType.SAVEDPHOTOALBUM;
         navigator.camera.getPicture(this.success, this.error, o);
@@ -45,7 +46,7 @@ app.camera = {
     
     // resize pictures as thumbnails
     thumbnails: function() {
-        console.log('thumbnails()');
+        //alert('thumbnails()');
         var o = this.options;
         o.targetHeight = 100;
         o.targetWidth = 100;

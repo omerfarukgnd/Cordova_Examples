@@ -1,9 +1,0 @@
-repositories {
-    flatDir {
-        dirs "libs"
-    }
-}
-
-dependencies {
-    compile(name:"HockeySDK-Android-5.2.0", ext: "aar")
-}
